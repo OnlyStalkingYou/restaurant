@@ -1,0 +1,95 @@
+#Promo {
+	padding: 100px 0;
+	background: linear-gradient(135deg,rgba(0,0,0,.1)0,#000 100%);
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/C2SkUEF/mg0017-subtle-grey-moving-texture-animated-background_4yfhezibl__F0000.png");
+	background-position: center;
+	background-repeat: repeat;
+
+	h2,h5{
+		text-align: center;
+	}
+
+	.promo-box{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		align-self: center;
+	}
+
+
+	.box-img-4{
+		width: 300px;
+		height: 200px;
+		background: linear-gradient(135deg,rgba(0,0,0,.05)0,#000 100%);
+		background-image: linear-gradient(135deg,rgba(0,0,0,.05)0,#000 100%),url("https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/images/Db_Grand_McExtreme_Spain_2col_574x384.jpg?$Publication_Two_Column_Desktop$");
+		background-position: center;
+		background-size: cover;
+		position: relative;
+		
+	}
+
+	.box-img-5{
+		width: 300px;
+		height: 200px;
+		background: linear-gradient(135deg,rgba(0,0,0,.05)0,#000 100%);
+		background-image: linear-gradient(135deg,rgba(0,0,0,.05)0,#000 100%),url("https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/images/Tomato_Mozzarella_Chicken_CAN_2col_574x384.jpg?$Publication_Two_Column_Desktop$");
+		background-position: center;
+		background-size: cover;
+		position: relative;
+		
+	}
+
+	.box-img-6{
+		width: 300px;
+		height: 200px;
+		background: linear-gradient(135deg,rgba(0,0,0,.05)0,#000 100%);
+		background-image: linear-gradient(135deg,rgba(0,0,0,.05)0,#000 100%),url("https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/images/Stroopwafel_McFlurry_NL_2col_574x384.jpg?$Publication_Two_Column_Desktop$");
+		background-position: center;
+		background-size: cover;
+		position: relative;
+		
+	}
+
+	.box {
+		background: white;
+		width: 300px;
+		height: 200px;
+		
+		
+
+
+		.boxes{
+			position: relative;
+			padding-bottom: 50px;
+		}
+	}
+
+
+	.event-title{
+		display: block;
+		font-weight: 600;
+		font-size: .9rem;
+		text-align: center;
+	}
+
+	.info {
+		font-weight: 300;
+		font-size: .8rem;
+		text-align: center;
+		line-height: 2;
+		margin: 0;
+		
+	}
+
+	.grey {
+		height: 1px;
+		border: 0;
+		box-shadow: 0 2px 2px -2px grey inset;
+		width: 50px;
+
+
+	}
+
+
+	
+}

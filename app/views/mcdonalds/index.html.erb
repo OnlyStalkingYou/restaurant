@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>McDonalds</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				logo
+			</div>
+			<nav>
+				<%= link_to 'Menu', menu_path %>
+				<%= link_to 'Locations', locations_path %>
+				<%= link_to 'Deals & Rewards', rewards_path %>
+				<%= link_to 'Reservations', reservations_path %>
+			</nav>
+		</div>
+		
+	</header>
+
+	<section id="TopImg">
+		<div class="container">
+			<div class="title">
+				<h5>
+				Welcome to
+				</h5>
+				<h1>
+					McDonalds
+				</h1>
+			</div>
+			
+			<div class="contact-info">
+				<div class="container">
+					<div class="booking">Book Table Directly</div>
+					<h2>(555)555-5555</h2>
+					<div class="hours">
+						Opening Hours <strong> Depends on Location</strong>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<section id="OurStory">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h5 class="comp-title">Our Story</h5>
+					<h2>Expensive is a state of mind</h2>
+					<p>The first McDonald's restaurant was started in 1948 by brothers Maurice and Richard McDonald. They bought appliances for their small hamburger restaurant from salesman Ray Kroc, who was intrigued by their need for eight malt and shake mixers.
+					<br />
+					<br />
+					Now we are proud to introduce, SODOSOPA. A brand new way to enjoy your McDonalds favorites, but with a more expensive experience.
+					</p>
+					
+					<div class="quote">"The most I've ever spent on a Big Mac" - <strong>Thomas Eggys</strong></div>
+					<br />
+					<%= link_to 'Reserve', reservations_path, :class => "reserve-btn" %>
+				</div>
+				<div class="col-md-6">
+					<div class="img"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="SpecialMenu">
+		<div class="container">
+			<h5 class="comp-title">Special Menu</h5>
+			<h2>Classic Favorites</h2>
+			<div class="row boxes">
+				<div class="col-md-4">
+					<div class="box">
+						<div class="box-img-1">
+							<div class="price-circle">$25</div>
+						</div>
+						<span class="food-title">McChicken</span>
+						<p class="details">The McChicken® is a delightfully crispy chicken sandwich with a crispy chicken fillet topped with mayonnaise, shredded iceberg lettuce, and served on a perfectly toasty bun.</p>
+						<br />
+						<br />
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box">
+						<div class="box-img-2">
+							<div class="price-circle">$45</div>
+						</div>
+						<span class="food-title">Big Mac</span>
+						<p class="details">Mouthwatering perfection starts with two 100% pure beef patties and Big Mac®sauce sandwiched between a sesame seed bun. It’s topped off with pickles, crisp lettuce, onions and American cheese for a 100% beef burger with a taste like no other</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box">
+						<div class="box-img-3">
+							<div class="price-circle">$35</div>
+						</div>
+						<span class="food-title">McDouble</span>
+						<p class="details">A classic double burger from McDonald’s, the McDouble® stacks two 100% pure beef patties seasoned with just a pinch of salt and pepper. It’s topped with tangy pickles, chopped onions, ketchup, mustard and a slice of melty American cheese. </p>
+					</div>
+				</div>
+			</div>
+			<%= link_to ' View Full Menu', menu_path %>
+		</div>	
+	</section>
+
+
+	<section id="RandomQuote">
+		<div class="container">
+			<h1>"Whether it's a date, or you just want to treat yourself, McDonalds is the way to go"</h1>
+			<span class="author">- Jonly Bonly -</span>
+		</div>
+	</section>
+
+
+	<section id="Promo">
+		<div class="container">
+			<h5 class="comp-title">Our News</h5>
+			<h2>Promotions & Events</h2>
+			<div class="col-md-12 promo-box">
+				<div class="row boxes">
+					<div class="box-img-4">
+					</div>
+					<div class="box">
+						<span class="event-title">Stroopwafel McFlurry from the Netherlands</span>
+						<hr class="grey" />
+						<p class="info">A sweet, creamy McDonald’s treat from the Netherlands, the Stroopwafel McFlurry blends vanilla soft serve with Daelman’s Stroopwafel crispy caramel waffle cookie pieces and a rich caramel swirl.</p>
+					</div>
+					<div class="box-img-5">
+					</div>
+				</div>
+
+				<div class="row boxes">
+					<div class="box">
+						<span class="event-title">Double Grand McExtreme Bacon Burger from Spain</span>
+						<hr class="grey" />
+						<p class="info">A favorite from Spain, features thick-cut applewood smoked bacon topped on two ¼* lb. 100% fresh beef patties that are cooked when you order. Layered with smoky McBacon sauce and two slices of savory real gouda cheese on a sesame seed bun.</p>
+					</div>
+
+					<div class="box-img-6">
+					</div>
+
+					<div class="box">
+						<span class="event-title">Tomato Mozzarella Chicken Sandwich from Canada</span>
+						<hr class="grey" />
+						<p class="info">A savory medley of flavor with creamy mozzarella cheese, sliced roma tomatoes, fresh lettuce, and tomato and herb sauce all with a crispy chicken breast made with all white meat. Served on an artisan roll</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	
+
+
+</body>
+</html>

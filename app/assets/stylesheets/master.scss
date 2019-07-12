@@ -1,0 +1,15 @@
+@import "bootstrap";
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans:400,700|Rozha+One&display=swap');
+
+@import "Global";
+
+@import "Grid";
+
+.footer-blurb {
+	font-family: 'PT Sans', sans-serif;
+	font-style: italic;
+	text-align: right;
+	font-size: 10px;
+}

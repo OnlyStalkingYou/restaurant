@@ -1,0 +1,60 @@
+#TopImg {
+	position: relative;
+	background: black;
+	min-height: 500px;
+	height: 100vh;
+	background: linear-gradient(135deg,rgba(0,0,0,.1)0,#000 100%);
+	background-image: linear-gradient(135deg,rgba(0,0,0,.1)0,#000 100%),url("https://i.ytimg.com/vi/kd_jPyapQWU/maxresdefault.jpg");
+	background-position: center;
+	background-size: cover;
+	
+
+	.title {
+		padding: 300px 0 75px;
+		text-align: right;
+
+		h1 {
+			font-family: 'Rozha One', serif;
+			text-transform: uppercase;
+			color: white;
+			font-weight: 300;
+			font-size: 4rem;
+			color: yellow;
+		}
+
+		h5 {
+			text-transform: uppercase;
+			color: white;
+			font-weight: 500;
+		}
+	}
+
+	.contact-info{
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		text-align: right;
+		color: #ADADAD;
+		font-size: .9rem;
+		line-height: 1.5rem;
+
+
+		strong {
+			font-weight: 700;
+			color: white;
+		}
+
+		.booking{
+			margin-bottom: 4px
+		}
+
+		h2{
+			font-size: 2rem;
+			margin-bottom: 10px;
+			color: white;
+
+		}
+	}
+	
+}
